@@ -48,6 +48,8 @@ const corsOptions = {
       origin.includes("172.") ||
       origin.includes("localtunnel.me") ||
       origin.includes("ngrok") ||
+      origin.endsWith(".vercel.app") ||
+      origin.endsWith(".onrender.com") ||
       allowedOrigins.includes(origin) ||
       allowedOriginRegex.some((regex) => regex.test(origin));
     if (isAllowed) {
