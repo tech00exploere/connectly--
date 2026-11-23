@@ -1,4 +1,4 @@
-# Connectly 💬
+# Connectly 
 
 A modern real-time messaging platform built with the MERN stack featuring secure authentication, file sharing, online presence, and WebSocket-based communication.
 
